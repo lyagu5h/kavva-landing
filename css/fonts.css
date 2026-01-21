@@ -1,0 +1,29 @@
+/* @font-face {
+    font-family: PlayfairDisplay;
+    src: url(../assets/fonts/PlayfairDisplay-Bold.ttf);
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: PlayfairDisplay;
+    src: url(../assets/fonts/PlayfairDisplay-Regular.ttf);
+    font-weight: 400;
+} */
+
+@font-face {
+    font-family: Enthalpy298;
+    src: url("../assets/fonts/Enthalpy298-regular.otf");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: Raleway;
+    src: url("../assets/fonts/Raleway-Regular.ttf");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: Raleway;
+    src: url("../assets/fonts/Raleway-Bold.ttf");
+    font-weight: 700;
+}

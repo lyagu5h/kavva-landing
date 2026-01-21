@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kavva</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/fonts.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/animations.css">
+    <script src="./js/script.js" defer></script>
+</head>
+
+<body id="body">
+    <header class="header">
+        <div class="header__logo">
+            Kavva
+        </div>
+        <ul class="header__menu">
+            <li class="header__menu-item"><a href="#problem">Проблема</a></li>
+            <li class="header__menu-item"><a href="#solution">Решение</a></li>
+            <li class="header__menu-item"><a href="#features">Технологии</a></li>
+    </header>
+    <main class="main">
+        <section class="hero">
+            <div class="hero__container">
+                <h2 class="hero__title">
+                Kavva
+                </h2>
+                <p class="hero__description"><span class="text-accent">Kavva</span> - приложение, которое подбирает кофе под ваши предпочтения. Экономьте до 6 часов в год и 12 000 ₽ на неудачных покупках.</p>
+                <button class="hero__button">Найти свой кофе</button>
+            </div>
+            <img src="./images/logo.jpg" alt="Kavva_hero" class="hero__img">
+        </section>
+
+        <section id="problem" class="problem">
+                <h2 class="problem__title">Выбор кофе — это лотерея?</h2>
+                <p class="problem__description">67% кофеманов тратят до 6 часов в год на выбор и теряют 12 000 ₽ на неудачных покупках. Вы заслуживаете уверенности, а не случайного результата.</p>
+                <div class="problem__stats">
+                    <div id="stats-section" class="problem__stat-item">
+                        <p class ="problem__stat"><span class="problem__stat-number" data-target="6">0</span> часов</p>
+                        <span class="problem__stat-label">в год на выбор кофе</span>
+                    </div>
+                    <div class="problem__stat-item">
+                        <p class="problem__stat"><span class="problem__stat-number" data-target="12000">0</span> ₽</p>
+                        <span class="problem__stat-label">ежегодные потери</span>
+                    </div>
+                    <div class="problem__stat-item">
+                        <p class="problem__stat"><span class="problem__stat-number" data-target="60">0</span> %</p>
+                        <span class="problem__stat-label">разочарований во вкусе</span>
+                    </div>
+                </div>
+            </section>
+
+        <section id="solution" class="solutions">
+            <div class="solutions__header">
+                <h2 class="solutions__title">Kavva ставит выбор кофе на алгоритмы</h2>
+                <p class="solutions__description">Мы заменяем догадки на точные рекомендации. Расскажите о своих предпочтениях один раз, и наша система будет учиться вместе с вами, находя ваши идеальные сорта.</p>
+            </div>
+            <ul class="solutions__list">
+                <li class="solutions__list-item">
+                    <div class="solutions__img-container"><img src="./images/i.webp" alt="feature1" class="solutions__img"></div>
+                    <div class="solutions__list-item-info">
+                        <h3 class="solutions__list-item-title">Создайте цифровой вкусовой профиль</h3>
+                        <p class="solutions__list-item-description">Отметьте, что вам нравится: сладость, кислотность, тело, ароматные ноты</p>
+                    </div>
+                </li>
+                <li class="solutions__list-item">
+                    <div class="solutions__img-container"><img src="./images/i.webp" alt="feature2" class="solutions__img"></div>
+                    <div class="solutions__list-item-info">
+                        <h3 class="solutions__list-item-title">Получайте персональные подборки</h3>
+                        <p class="solutions__list-item-description">Наш ИИ анализирует ваш профиль и тысячи отзывов, чтобы предложить вам вкусный кофе с вероятностью успеха до 90%</p>
+                    </div>
+                </li>
+                <li class="solutions__list-item">
+                    <div class="solutions__img-container"><img src="./images/i.webp" alt="feature3" class="solutions__img"></div>
+                    <div class="solutions__list-item-info">
+                        <h3 class="solutions__list-item-title">Открывайте, оценивайте, совершенствуйте.</h3>
+                        <p class="solutions__list-item-description">Ставьте оценки, и следующие рекомендации станут еще точнее. Ваш вкус эволюционирует — и Kavva эволюционирует вместе с вами</p>
+                    </div>
+                </li>
+            </ul>
+        </section>
+
+        <section id="features" class="features">
+            <h2 class="features__title">Не просто рекомендации. Это ваш персональный бариста на основе ИИ</h2>
+            <div class="features__grid">
+                <div class="features__item">
+                    <div class="features__icon"><img src="./assets/svg/Robot.svg" alt=""></div>
+                    <h3>ИИ</h3>
+                    <p>
+                        Алгоритмы коллаборативной фильтрации, которые учатся на ваших
+                        оценках и предпочтениях тысяч других пользователей.
+                    </p>
+                </div>
+                <div class="features__item">
+                    <div class="features__icon"><img src="./assets/svg/CoffeeBean.svg" alt=""></div>
+                    <h3>Язык вкуса</h3>
+                    <p>
+                        NLP-анализ отзывов выявляет реальные вкусовые ноты и ощущения, а
+                        не маркетинговые описания.
+                    </p>
+                </div>
+                <div class="features__item">
+                    <div class="features__icon"><img src="./assets/svg/JusticeOutline.svg" alt=""></div>
+                    <h3>Объективная шкала</h3>
+                    <p>
+                        Стандартизированная система оценок (SCA) убирает субъективность и
+                        помогает сравнивать "яблоки с яблоками".
+                    </p>
+                </div>
+        </div>
+        </section>
+
+        <section class="call-to-action">
+            <div class="call-to-action__container">
+                <h2 class="call-to-action__title">Присоединяйтесь к сообществу Kavva</h2>
+                <p class="call-to-action__description">Начните пить кофе, созданный для вас. Присоединяйтесь к сообществу Kavva - там, где технологии встречаются со вкусом</p>
+                <button class="call-to-action__button">Найти свой кофе</button>
+            </div>
+        </section>
+
+        <section class="footer">
+            <div class="footer__logo">
+                Kavva            </div>
+            <div class="footer__menu-container">
+                <ul class="footer__menu">
+                    <li class="footer__menu-item"><a href="#">Политика конфиденциальности</a></li>
+                    <li class="footer__menu-item"><a href="#">Уcловия использования</a></li>
+                    <li class="footer__menu-item"><a href="mailto:helloworld@kavva.ru">helloworld@kavva.ru</a></li>
+                </ul>
+                <p class="footer__copyright">© 2025 Kavva. Все права защищены.</p>
+            </div>
+        </section>
+
+        
+    </main>
+</body>
+</html>
