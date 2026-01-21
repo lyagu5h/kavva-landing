@@ -201,7 +201,7 @@
 .solutions__list-item {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    /* gap: 2rem; */
+    column-gap: 2rem;
     grid-auto-flow: column dense;
     margin-top: 8rem;
     place-items: center;
@@ -229,7 +229,14 @@
 
 
 .solutions__img-container {
-    max-width: 44rem;
+    object-fit: contain;
+    max-width: 20rem;
+    aspect-ratio: 1/1;
+    border-style: solid;
+    border-color: #ff8901;
+    border-width: .125rem;
+    border-radius: 1rem;
+    /* overflow: hidden; */
 }
 
 .solutions__img {
